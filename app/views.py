@@ -60,6 +60,12 @@ def cadastro_cursos(request):
 #            'cursos': ['ADS' , 'SI', 'CC'],
             'cursos': Curso.objects.all(),
             'year':datetime.now().year,
+          
+                     
+        })
+
+    )
+   
             
             
 def cadastro_vestibulares(request):
@@ -75,7 +81,7 @@ def cadastro_vestibulares(request):
             
 
             
-    })
+        })
 
-)
+    )
 
