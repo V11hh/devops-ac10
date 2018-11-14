@@ -98,8 +98,6 @@ def inscricao_candidato(request):
             'year':datetime.now().year,            
             
             
-
-            
             
         })
 
